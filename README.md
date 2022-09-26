@@ -25,5 +25,12 @@ The tool reads the data from the .csv files which are provided in the InputFiles
 The units of all input parameters can be found in the corresponding .csv files.
 
 ## Running the Tool
-
+From the main directory, run using:
+```` 
+python Main.py
+````
 ## Viewing the Results
+Results are displayed on the console and also written to .csv files:
+1. Results_fin.csv lists the value streams and their corresponding dollar value for each year of the project lifetime.
+2. val_co_opt.csv lists the co-optimized value streams and their corresponding dollar value for each year of project lifetime.
+
