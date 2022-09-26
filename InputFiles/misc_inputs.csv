@@ -1,0 +1,2 @@
+Meter position,System lifetime (years),Time of use,Demand Charge,Avoided CO2,Avoided NO,Avoided SO2,Avoided O3,Avoided CO,Avoided PM2.5,Social cost of carbon ($/metric ton),Discount rate
+BTM,,TRUE,TRUE,1429,0.78,0.85,1,1,0.1,100,2
