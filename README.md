@@ -1,5 +1,5 @@
 # miracl-valuation-tool
-
+A Python module to calculate and co-optimize value streams from distributed wind systems
 ## Prerequisites
 Following packages should be installed: 
 ```` 
