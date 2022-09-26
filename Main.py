@@ -2,9 +2,9 @@ import csv
 import CalcFunctions as CF
 import HelperFunctions as HF
 
-misc_inp_csv = "InputFiles/misc_inputs.csv"
-sys_prof_csv = "InputFiles/hourly_sys_prof_long_adj.csv"
-build_prof_csv = "InputFiles/building_prof_long_adj.csv"
+misc_inp_csv = "InputFiles/StaticInputs.csv"
+sys_prof_csv = "InputFiles/SystemProfile.csv"
+build_prof_csv = "InputFiles/BuildingProfile.csv"
 annual_costs_csv = "InputFiles/AnnualCosts.csv"
 
 misc_inputs = HF.get_inputs(misc_inp_csv)
@@ -62,9 +62,5 @@ results_all.update(results)
 results_all.update(misc_outputs)
 
 HF.write_csv_res(results, results_all, year_list, impl_ind_val_ele_list, impl_dep_val_ele_list)   #Todo: place csv write function in HF
-
-#monthly_util_peak = CF.cal_peak_monthly_demand(build_prof, "Hourly demand (kW)", True)
-#print(monthly_util_peak)
-#print(CF.cal_util_DC_ben_annually(build_prof, sys_prof))
 
 import opt
