@@ -11,7 +11,7 @@ pip install python-csv
 ## Installation
 Clone the repository using:
 ```` 
-git clone https://github.com/BilalAhmad-Bhatti/miracl-valuation-tool.git
+git clone https://github.com/BilalAhmad-Bhatti/miracl-valuation.git
 ````
 
 ## Configuring the Input Files
