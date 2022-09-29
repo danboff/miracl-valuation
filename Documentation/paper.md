@@ -34,6 +34,7 @@ affiliations:
 date: 13 August 2017
 bibliography: paper.bib
 ---
+
 # Summary
 As the electricity system becomes more renewable and distributed, an increasingly diverse set of technologies will need to be compared and evaluated. These technologies may create different values, which may accrue to a diverse set of stakeholders. Distributed wind has the ability to deliver a broad set of benefits, ranging from electricity generation to pollution reduction, ancillary services, renewable energy credits, as well as reduced peak capacity charges. However, these values are often poorly understood and difficult to calculate. This software allows users to better understand this flow of benefits. Users can then use these findings to assist in cost-benefit analysis, compare distributed wind to other resources, and identify potential high value operations for their projects.   
 
